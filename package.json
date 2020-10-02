@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "qs:dev": "vuepress dev qizhenshuai",
-    "qs:build": "vuepress build qizhenshuai",
-    "deploy-gh": "GH=1 yarn qs:build && bash scripts/deploy-gh.sh"
+    "dev": "vuepress dev qizhenshuai --open --host \"localhost\"",
+    "build": "vuepress build qizhenshuai",
+    "deploy-gh": "GH=1 yarn build && bash scripts/deploy-gh.sh",
+    "deploy": "GH=1 bash scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,11 @@
     "url": "https://github.com/qizhenshuai/blog/issues"
   },
   "homepage": "https://github.com/qizhenshuai/blog#readme",
+  "dependencies": {
+    "vue-class-component": "^7.2.3"
+  },
   "devDependencies": {
-    "vuepress": "^1.6.0"
+    "vuepress": "^1.6.0",
+    "vuepress-theme-reco": "1.5.7"
   }
 }

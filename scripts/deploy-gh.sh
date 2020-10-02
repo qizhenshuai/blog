@@ -4,10 +4,11 @@
 set -e
 
 # 生成静态文件
-npm run qs:build
+npm run build
 
 # 进入生成的文件夹
-cd qizhenshuai/.vuepress/dist
+# cd qizhenshuai/.vuepress/dist
+cd public
 
 # 如果是发布到自定义域名
 # echo 'www.qizhenshuai.com' > CNAME
@@ -26,3 +27,5 @@ git commit -m 'deploy'
 git push -f git@github.com:qizhenshuai/blog.git master:gh-pages
 
 cd -
+
+rm -rf public
