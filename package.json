@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "qs:dev": "vuepress dev qizhenshuai",
+    "qs:build": "vuepress build qizhenshuai",
+    "deploy-gh": "GH=1 yarn qs:build && bash scripts/deploy-gh.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qizhenshuai/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qizhenshuai/blog/issues"
+  },
+  "homepage": "https://github.com/qizhenshuai/blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.6.0"
+  }
+}
