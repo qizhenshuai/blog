@@ -13,6 +13,9 @@ cd public
 # 如果是发布到自定义域名
 # echo 'www.qizhenshuai.com' > CNAME
 
+git config user.name qizhenshuai
+git config user.email qizhenshuai@126.com
+
 git init
 git add -A
 git commit -m 'deploy'

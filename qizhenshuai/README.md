@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 北城 - 前端学习
+tagline: 一个爱好前端的程序员
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

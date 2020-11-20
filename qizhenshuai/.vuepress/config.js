@@ -91,10 +91,10 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "y",
-    "authorAvatar": "/avatar.png",
+    "author": "北城",
+    "authorAvatar": "/author.jpg",
     "record": "xxxx",
-    "startYear": "2017"
+    "startYear": "2015"
   },
   "markdown": {
     "lineNumbers": true
