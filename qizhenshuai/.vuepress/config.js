@@ -1,6 +1,6 @@
 module.exports = {
   "base": "/blog/",
-  "title": "北城",
+  "title": "陶北",
   "description": "y",
   "dest": "public",
   "head": [
@@ -91,7 +91,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "北城",
+    "author": "陶北",
     "authorAvatar": "/author.jpg",
     "record": "xxxx",
     "startYear": "2015"

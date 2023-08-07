@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 北城 - 前端学习
+heroText: 陶北 - 前端学习
 tagline: 一个爱好前端的程序员
 # heroImage: /hero.png
 # heroImageStyle: {
